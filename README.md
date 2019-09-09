@@ -1,1 +1,1 @@
-# SoftUni_JS_Applications
+# SoftUni_JS_Applications_July_2019
