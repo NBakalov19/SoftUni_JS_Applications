@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="ie=edge" http-equiv="X-UA-Compatible">
+    <title>Books</title>
+    <link href="./styles.css" rel="stylesheet">
+</head>
+<body>
+<button id="loadBooks">LOAD ALL BOOKS</button>
+<table>
+    <thead>
+    <tr>
+        <th>Title</th>
+        <th>Author</th>
+        <th>Isbn</th>
+        <th>Action</th>
+    </tr>
+    </thead>
+    <tbody class="tbodyBooks">
+    <tr>
+        <td>Harry Poter</td>
+        <td>J. K. Rowling</td>
+        <td>0-7475-3269-9</td>
+        <td>
+            <button>Edit</button>
+            <button>Delete</button>
+        </td>
+    </tr>
+    <tr>
+        <td>Game of Thrones</td>
+        <td>George R. R. Martin</td>
+        <td>9780553386790</td>
+        <td>
+            <button>Edit</button>
+            <button>Delete</button>
+        </td>
+    </tr>
+    </tbody>
+</table>
+
+<form>
+    <h3 id="formHeader">FORM</h3>
+    <label>TITLE</label>
+    <input id="title" placeholder="Title..." type="title">
+    <label>AUTHOR</label>
+    <input id="author" placeholder="Author..." type="title">
+    <label>ISBN</label>
+    <input id="isbn" placeholder="Isnb..." type="title">
+    <button id="submitBtn">Submit</button>
+
+    <div>
+        <button class="btnEdit" id="editBtn" style="display: none">Done</button>
+        <button class="btnDelete" id="cancelBtn" style="display: none">Cancel</button>
+    </div>
+</form>
+<script src="./app.js"></script>
+</body>
+</html>
+
+<!--Feel free to change/update/modify the HTML Structure-->
